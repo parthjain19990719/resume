@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+.pos_form{
+    /* background: #fff; */
+    background: linear-gradient(to top left, #33ccff 0%, #e1f7ff 100%);
+    /*margin: 5% 20% 5% 20%;*/
+    padding: 4% ;
+}
+
+.ul_pos{
+	list-style: none;
+	padding: 0;
+	margin: 20px auto;
+}
+
+.li_pos{
+	background-color: #bfdfea;
+	border: 1px solid #000;
+	margin-bottom: 10px;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+
+.li_pos:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    white-space: pre-line;
+}
+
+.disable_div {
+	display: none;
+}
+
+.li_pos_hover_disabled {
+	background-color: #bfdfea;
+        border: 1px solid #000;
+        margin-bottom: 10px;
+        padding: 10px;
+	transition: all 0.3s ease;
+}
+
+@media screen and (max-width:875px) {
+        .pos_form{
+                background: linear-gradient(to top left, #33ccff 0%, #e1f7ff 100%);
+                /*margin: 5% 2% 5% 2%;*/
+                padding: 4% ;
+        }
+}
+
