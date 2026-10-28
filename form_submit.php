@@ -24,9 +24,10 @@ if(isset($_POST['addresume'])){
 	$position_type = mysqli_real_escape_string($connection,$_POST['position_type']);
 	$work_status = mysqli_real_escape_string($connection,$_POST['work_status']);
 	$visa_transfer = mysqli_real_escape_string($connection,$_POST['visa_transfer']);
+	$Relocate = mysqli_real_escape_string($connection,$_POST['Relocate']);
 	$Linkedin_URL =  mysqli_real_escape_string($connection,$_POST['Linkedin_URL']);
 	
-	$query = "INSERT INTO Candidates (Name , Phone , Email , Zipcode , Salary_Type , Salary , Position_Type , Work_Status , Visa_Transfer , Linkedin_URL) VALUES ('$name','$phone_no','$email','$zipcode','$salary_type','$salary','$position_type','$work_status','$visa_transfer','$Linkedin_URL');";
+	$query = "INSERT INTO Candidates (Name , Phone , Email , Zipcode , Salary_Type , Salary , Position_Type , Work_Status , Visa_Transfer , Relocate , Linkedin_URL) VALUES ('$name','$phone_no','$email','$zipcode','$salary_type','$salary','$position_type','$work_status','$visa_transfer','$Relocate','$Linkedin_URL');";
 	$last_id = "";
 	if(mysqli_query($connection,$query)){
 		$last_id = mysqli_insert_id($connection);
@@ -60,17 +61,17 @@ if(isset($_POST['addresume'])){
 	else {
 		// Duplicate entry
 		if (mysqli_errno($connection) == 1062) {
-			$query_update = "UPDATE Candidates SET Name='$name' , Phone='$phone_no' , Zipcode='$zipcode' , Salary_Type='$salary_type' , Salary='$salary' , Position_Type='$position_type' , Work_Status='$work_status' , Visa_Transfer='$visa_transfer' , Linkedin_URL='$Linkedin_URL' WHERE Email='$email';";
+			$query_update = "UPDATE Candidates SET Name='$name' , Phone='$phone_no' , Zipcode='$zipcode' , Salary_Type='$salary_type' , Salary='$salary' , Position_Type='$position_type' , Work_Status='$work_status' , Visa_Transfer='$visa_transfer' , Relocate='$Relocate' , Linkedin_URL='$Linkedin_URL' WHERE Email='$email';";
 			if(mysqli_query($connection,$query_update)) {
 				$query_last_id = "SELECT Candidate_Id FROM Candidates WHERE Email='$email';";
 				$last_id = "";
 				$result_last_id = mysqli_query($connection, $query_last_id);
 				if (($result_last_id) && (mysqli_num_rows($result_last_id) > 0)){
-                    $row_last_id = mysqli_fetch_assoc($result_last_id);
+                    			$row_last_id = mysqli_fetch_assoc($result_last_id);
 					$last_id = $row_last_id['Candidate_Id'];
 				}
 				if (isset($_FILES['file']) && ($last_id)) {
-		            $file_name = $_FILES['file']['name'];
+		            		$file_name = $_FILES['file']['name'];
 					$file_tmp = $_FILES['file']['tmp_name'];
 					$extension = pathinfo($file_name, PATHINFO_EXTENSION);
 		   			$final_file_name = $name."_".$last_id.".".$extension;

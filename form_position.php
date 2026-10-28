@@ -530,8 +530,18 @@ function open_popup(tagid,tag_keyword) {
 
 function add_exp(){
 	if (curr_tag_id == -1){
-		if (document.getElementById("other_name").value.length < 1){
+	    let other_name_value = document.getElementById("other_name").value;
+		if (other_name_value.length < 1){
 			alert("Please enter Name of Technology");
+			return;
+		} else if (other_name_value.length > 40) {
+		    alert("Please enter valid Name of Technology");
+			return;
+		} else if (other_name_value.includes(",")) {
+		    alert("Please enter valid Name of Technology");
+			return;
+		} else if (other_name_value.includes(";")) {
+		    alert("Please enter valid Name of Technology");
 			return;
 		}
 	}
@@ -625,7 +635,7 @@ function validation(form){
                 alert("Not a valid ZIP Code");
                 return false;
         }
-	var phoneno = /^\d{10}$/;
+	var phoneno = /^[+]{0,1}(?:[0-9\-\(\)]\s?){6,15}[0-9]{1}$/;
 	if(!(document.getElementById("mobile_number").value.match(phoneno))){
 		alert("Not a valid Mobile Number");
 		return false;

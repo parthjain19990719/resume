@@ -18,6 +18,7 @@ $no_of_references = 0;
 $suggested_skills_name_send_array =  array();
 $suggested_skills_id_send_array =  array();
 $Step3 = false;
+$c_id = "";
 
 if(isset($_POST['addresume'])) {
 	$rand_id = mysqli_real_escape_string($connection,$_POST['Position_Random_Id']);
@@ -35,6 +36,7 @@ if(isset($_POST['addresume'])) {
 	$Hire_Description = mysqli_real_escape_string($connection,$_POST['Hire_Description']);
     	$work_status = mysqli_real_escape_string($connection,$_POST['work_status']);
 	$visa_transfer = mysqli_real_escape_string($connection,$_POST['visa_transfer']);
+	$Relocate = mysqli_real_escape_string($connection,$_POST['Relocate']);
 	$Linkedin_URL = mysqli_real_escape_string($connection,$_POST['Linkedin_URL']);
 	$employer_emailid = "";
 	if (isset($_POST['Employer_EmailId'])){
@@ -58,7 +60,7 @@ if(isset($_POST['addresume'])) {
 					//candidate exists
 					$row_candidate = mysqli_fetch_assoc($result_candidate);
 					$c_id = $row_candidate['Candidate_Id'];
-					$update_query = "UPDATE Candidates SET Name='$name' , Phone='$phone_no' , Zipcode='$zipcode' , Linkedin_URL='$Linkedin_URL' WHERE Candidate_Id='$c_id';";
+					$update_query = "UPDATE Candidates SET Name='$name' , Phone='$phone_no' , Zipcode='$zipcode' , Relocate='$Relocate' , Linkedin_URL='$Linkedin_URL' WHERE Candidate_Id='$c_id';";
 					mysqli_query($connection,$update_query);
 					//Now need to check this exists in Candidate_Postion table
 					$check_query = "SELECT Work_Status FROM Candidates_Positions WHERE Candidate_Id='$c_id' AND Position_Id='$pos_id';";
@@ -103,7 +105,7 @@ if(isset($_POST['addresume'])) {
 					}
 				} else {
 					//new candidate
-					$insert_query = "INSERT INTO Candidates (Name , Phone , Zipcode , Email , Salary_Type , Salary , Work_Status , Visa_Transfer , Linkedin_URL) VALUES ('$name','$phone_no','$zipcode','$email','$salary_type','$salary','$work_status','$visa_transfer','$Linkedin_URL');";
+					$insert_query = "INSERT INTO Candidates (Name , Phone , Zipcode , Email , Salary_Type , Salary , Work_Status , Visa_Transfer , Relocate , Linkedin_URL) VALUES ('$name','$phone_no','$zipcode','$email','$salary_type','$salary','$work_status','$visa_transfer','$Relocate','$Linkedin_URL');";
 					if (mysqli_query($connection,$insert_query)) {
 						$c_id = mysqli_insert_id($connection);
 						$insert_pos_query = "INSERT INTO Candidates_Positions ( Candidate_Id , Position_Id , Salary_Type , Salary , Work_Status , Visa_Transfer , Hire_Description , Referer , Employer_EmailId) VALUES ('$c_id','$pos_id','$salary_type','$salary','$work_status','$visa_transfer','$Hire_Description','$referer','$employer_emailid');";
@@ -199,17 +201,23 @@ if($Step3) {$action_file = 'References.php'; }
 		<input type="hidden" name="suggested_skills_id_send_array" id="suggested_skills_id_send_array" value='<?php echo json_encode($suggested_skills_id_send_array); ?>'>
               	<input type="hidden" name="suggested_skills_name_send_array" id="suggested_skills_name_send_array" value='<?php echo json_encode($suggested_skills_name_send_array); ?>'>
 		<?php // Get files from database
-		$file_query = "SELECT File_Id , File_Name FROM Position_Files WHERE Position_Id='$pos_id';";
+		$file_query = "SELECT File_Id , File_Name , Instructions FROM Position_Files WHERE Position_Id='$pos_id';";
 		if (($result_file = mysqli_query($connection,$file_query)) && (mysqli_num_rows($result_file) > 0)) {
 			$file_count = 1;
 			while ($row_file = mysqli_fetch_array($result_file)) {
 				$filename = $row_file['File_Name'];
+				$Instructions = $row_file['Instructions'];
 				$pos = strpos($filename,'.');
 				$only_filename = substr($filename,0,$pos);
 				$f_id = $row_file['File_Id'];
 				echo "<div class='form-row'><div class='form-group col-md-8'>";
 				echo "<input type='hidden' name='File_Id_$file_count' value='$f_id'>";
 				echo "<label class='form-label' for='File_Upload_$file_count'>$file_count. $only_filename: <a href='Uploads/docs/$filename' download><img src='images/download-button.png' width='120' height='45'></a> Fill and Upload Below</label>";
+				if (strlen($Instructions) > 0) {
+					echo "<br><a> Note: ";
+					echo $Instructions;
+					echo "</a>";
+				}
 				echo "<input type='file' class='form-control' placeholder='Upload $only_filename' required name='File_Upload_$file_count' >";
 				$file_count = $file_count + 1 ;
 				echo "</div></div>";

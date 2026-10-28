@@ -41,10 +41,19 @@
 		<div class="form-row" id="visa_transfer_div" style="display: none">
                         <div class="form-group col-md-6">
                                 <label for="visa_transfer" class="form-label">Do you wish to transfer your visa?* : </label><br>
-                                <input type="radio" id="no_visa" name="visa_transfer" value="0" onclick="visa_transfer_yes(0)" checked>
+                                <input type="radio" id="no_visa" name="visa_transfer" value="0" checked>
                                 <label for="no_visa"> No &nbsp;&nbsp;</label>
-                                <input type="radio" id="yes_visa" name="visa_transfer" value="1" onclick="visa_transfer_yes(1)">
+                                <input type="radio" id="yes_visa" name="visa_transfer" value="1">
                                 <label for="yes_visa"> Yes </label>
+                        </div><br>
+		</div>
+		<div class="form-row" id="Relocate_div">
+                        <div class="form-group col-md-6">
+                                <label for="Relocate" class="form-label">Are you willing to relocate?* : </label><br>
+                                <input type="radio" id="No_Relocate" name="Relocate" value="0" checked>
+                                <label for="No_Relocate"> No &nbsp;&nbsp;</label>
+                                <input type="radio" id="Yes_Relocate" name="Relocate" value="1">
+                                <label for="Yes_Relocate"> Yes </label>
                         </div><br>
                 </div>
 		<div class="form-row" id="salary_type_div">
@@ -194,6 +203,8 @@ function autofill_form(email_value) {
                                 }
 			}
 		}
+		if (data['auto_data']['Relocate'] == '0') { document.getElementById("No_Relocate").checked = true; }
+		else { document.getElementById("Yes_Relocate").checked = true; }
 		if (data['auto_data']['Salary']) { document.getElementById("salary").value = data['auto_data']['Salary']; }
 		if (data['auto_data']['Position_Type']) {
 			if (data['auto_data']['Position_Type'] == 'Remote') { document.getElementById("Remote").checked = true; }
@@ -324,7 +335,7 @@ function open_popup(tagid,tag_keyword){
 	}
 	else{
 		document.getElementById("other_name_label").style.display = "none";
-                document.getElementById("other_name").style.display = "none";
+        document.getElementById("other_name").style.display = "none";
 	}
 	var label = document.getElementById("yoe_label");
 	label_text = "Years of Experience in " + tag_keyword + " : ";
@@ -333,8 +344,18 @@ function open_popup(tagid,tag_keyword){
 
 function add_exp(){
 	if (curr_tag_id == -1){
-		if (document.getElementById("other_name").value.length < 1){
+	    let other_name_value = document.getElementById("other_name").value;
+		if (other_name_value.length < 1){
 			alert("Please enter Name of Technology");
+			return;
+		} else if (other_name_value.length > 40) {
+		    alert("Please enter valid Name of Technology");
+			return;
+		} else if (other_name_value.includes(",")) {
+		    alert("Please enter valid Name of Technology");
+			return;
+		} else if (other_name_value.includes(";")) {
+		    alert("Please enter valid Name of Technology");
 			return;
 		}
 	}
@@ -407,7 +428,7 @@ window.onclick = function(event) {
   	}
 }
 
-function validation(){
+function validation() {
 	if ((tags_array.length < 1) && (tags_keywords_array.length < 1)){
 		alert("Please add skills");
 		return false;

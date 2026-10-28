@@ -80,7 +80,7 @@ function send_email($Position_Id,$Candidate_Id) {
 			if (($result_pos_file = mysqli_query($connection,$pos_file_query)) && (mysqli_num_rows($result_pos_file) > 0)) {
 				while ($row_pos_file = mysqli_fetch_array($result_pos_file)) {
 					$File_Name = $row_pos_file['File_Name'];
-					$File_Name_Path = "Uploads/docs/" . $File_Name;
+					$File_Name_Path = "/home/advdimag/public_html/Uploads/docs/" . $File_Name;
 					$Instructions = $row_pos_file['Instructions'];
 					if (strlen($File_Name) > 0) {
 						array_push($list_of_attachemnt_files,$File_Name_Path);

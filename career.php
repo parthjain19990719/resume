@@ -45,16 +45,23 @@ function displayPage()
 				div_heading.appendChild(heading);
 				const div_bottom_right =  document.createElement('div');
 				if (position.Postdate){
-				    div_bottom_right.setAttribute('style','position: relative;height: 20px;');
-				    const posted_date_p = document.createElement('p');
-				    if (position.Client_Name) {
-					    posted_date_p.innerHTML = '<b>Client: </b>' + position.Client_Name + "&nbsp<b>Posted On: </b>" + position.Postdate ;
-				    } else {
-				        posted_date_p.innerHTML = "<b>Posted On: </b>" + position.Postdate ;
-				    }
-					posted_date_p.setAttribute('style','position: absolute;bottom:0;right:0;');
-                    div_bottom_right.appendChild(posted_date_p);
-                }
+					div_bottom_right.setAttribute('style','position: relative;height: 20px;');
+				    	const posted_date_p = document.createElement('p');
+				    	if (position.Client_Name) {
+						posted_date_p.innerHTML = '<b>Client: </b>' + position.Client_Name + "&nbsp<b>Posted On: </b>" + position.Postdate ;
+				    	} else {
+				        	posted_date_p.innerHTML = "<b>Posted On: </b>" + position.Postdate ;
+				    	}
+					posted_date_p.setAttribute('style','position: absolute;top:0;right:0;');
+                    			div_bottom_right.appendChild(posted_date_p);
+				}
+				if (position.OnlyW2 == 1){
+					div_bottom_right.setAttribute('style','position: relative;height: 40px;');
+                                        const w2_p = document.createElement('p');
+                                        w2_p.innerHTML = "<b>This position is only for W2</b>";
+                                        w2_p.setAttribute('style','position: absolute;top:20px;right:0;');
+                                        div_bottom_right.appendChild(w2_p);
+                                }
 				li.appendChild(div_heading);
 				li.appendChild(div_bottom_right);
 

@@ -1,8 +1,8 @@
 <?php
 
-$username = "advdimag";
+$username = "advdimag_dbuser";
 $host = "localhost";
-$password = "kesariyaji123";
+$password = "yogesh263";
 mysqli_report(MYSQLI_REPORT_OFF);
 $connection = mysqli_connect( $host , $username , $password);
 $db = mysqli_select_db($connection,'advdimag_Resume');

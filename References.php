@@ -35,6 +35,7 @@ if(isset($_POST['addresume'])) {
 	$Hire_Description = mysqli_real_escape_string($connection,$_POST['Hire_Description']);
     	$work_status = mysqli_real_escape_string($connection,$_POST['work_status']);
 	$visa_transfer = mysqli_real_escape_string($connection,$_POST['visa_transfer']);
+	$Relocate = mysqli_real_escape_string($connection,$_POST['Relocate']);
 	$Linkedin_URL = mysqli_real_escape_string($connection,$_POST['Linkedin_URL']);
 	$employer_emailid = "";
 	if (isset($_POST['Employer_EmailId'])){
@@ -57,7 +58,7 @@ if(isset($_POST['addresume'])) {
 					//candidate exists
 					$row_candidate = mysqli_fetch_assoc($result_candidate);
 					$c_id = $row_candidate['Candidate_Id'];
-					$update_query = "UPDATE Candidates SET Name='$name' , Phone='$phone_no' , Zipcode='$zipcode' , Linkedin_URL='$Linkedin_URL' WHERE Candidate_Id='$c_id';";
+					$update_query = "UPDATE Candidates SET Name='$name' , Phone='$phone_no' , Zipcode='$zipcode' , Relocate='$Relocate' , Linkedin_URL='$Linkedin_URL' WHERE Candidate_Id='$c_id';";
 					mysqli_query($connection,$update_query);
 					//Now need to check this exists in Candidate_Postion table
 					$check_query = "SELECT Work_Status FROM Candidates_Positions WHERE Candidate_Id='$c_id' AND Position_Id='$pos_id';";
@@ -102,7 +103,7 @@ if(isset($_POST['addresume'])) {
 					}
 				} else {
 					//new candidate
-					$insert_query = "INSERT INTO Candidates (Name , Phone , Zipcode , Email , Salary_Type , Salary , Work_Status , Visa_Transfer , Linkedin_URL) VALUES ('$name','$phone_no','$zipcode','$email','$salary_type','$salary','$work_status','$visa_transfer','$Linkedin_URL');";
+					$insert_query = "INSERT INTO Candidates (Name , Phone , Zipcode , Email , Salary_Type , Salary , Work_Status , Visa_Transfer , Relocate , Linkedin_URL) VALUES ('$name','$phone_no','$zipcode','$email','$salary_type','$salary','$work_status','$visa_transfer','$Relocate','$Linkedin_URL');";
 					if (mysqli_query($connection,$insert_query)) {
 						$c_id = mysqli_insert_id($connection);
 						$insert_pos_query = "INSERT INTO Candidates_Positions ( Candidate_Id , Position_Id , Salary_Type , Salary , Work_Status , Visa_Transfer , Hire_Description , Referer , Employer_EmailId) VALUES ('$c_id','$pos_id','$salary_type','$salary','$work_status','$visa_transfer','$Hire_Description','$referer','$employer_emailid');";
@@ -324,7 +325,7 @@ function validation(form) {
 		var e = form.elements[i];
 		var e_type = e.type;
 		if (e_type == 'tel') {
-			var phoneno = /^\d{10}$/;
+			var phoneno = /^[+]{0,1}(?:[0-9\-\(\)]\s?){6,15}[0-9]{1}$/;
 			if(!(e.value.match(phoneno))){
 				alert("Not a valid Contact Number");
 				e.scrollIntoView({ block: 'center',  behavior: 'smooth' });

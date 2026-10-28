@@ -1,4 +1,392 @@
-[23-Apr-2026 13:36:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/Parth/config_resume.php on line 7
-[23-Apr-2026 13:36:45 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/Parth/config_resume.php on line 8
-[23-Apr-2026 13:36:45 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/Parth/config_resume.php on line 9
-[23-Apr-2026 13:36:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/Parth/get_positions.php on line 8
+[23-May-2025 20:07:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[23-May-2025 20:07:18 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[23-May-2025 20:07:18 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[23-May-2025 20:07:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[23-May-2025 20:17:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[23-May-2025 20:17:20 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[23-May-2025 20:17:20 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[23-May-2025 20:17:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[23-May-2025 20:48:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[23-May-2025 20:48:04 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[23-May-2025 20:48:04 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[23-May-2025 20:48:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[23-May-2025 20:50:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[23-May-2025 20:50:05 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[23-May-2025 20:50:05 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[23-May-2025 20:50:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[23-May-2025 21:33:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[23-May-2025 21:33:49 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[23-May-2025 21:33:49 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[23-May-2025 21:33:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[24-May-2025 03:33:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[24-May-2025 03:33:58 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[24-May-2025 03:33:58 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[24-May-2025 03:33:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[24-May-2025 04:56:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[24-May-2025 04:56:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[24-May-2025 04:56:46 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[24-May-2025 04:56:46 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/job_application.php on line 10
+[24-May-2025 04:56:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/job_application.php on line 12
+[24-May-2025 05:53:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[24-May-2025 05:53:03 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[24-May-2025 05:53:03 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[24-May-2025 05:53:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[24-May-2025 05:53:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[24-May-2025 05:53:46 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[24-May-2025 05:53:46 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[24-May-2025 05:53:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[24-May-2025 06:04:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[24-May-2025 06:04:22 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[24-May-2025 06:04:22 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[24-May-2025 06:04:22 UTC] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/job_application.php on line 10
+[24-May-2025 06:04:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/job_application.php on line 12
+[24-May-2025 06:13:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'advdimag'@'localhost' (using password: YES) in /home/advdimag/public_html/config_resume.php on line 7
+[24-May-2025 06:13:21 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 8
+[24-May-2025 06:13:21 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/config_resume.php on line 9
+[24-May-2025 06:13:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/advdimag/public_html/get_positions.php on line 8
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[22-Jun-2025 04:57:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[23-Jun-2025 20:07:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2025 17:42:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2025 19:39:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[16-Jul-2025 14:57:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[21-Jul-2025 07:18:54 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[29-Jul-2025 19:23:57 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[19-Aug-2025 17:43:31 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[26-Mar-2026 13:20:44 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Apr-2026 15:26:58 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[03-Jul-2026 20:49:50 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 13:07:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[04-Jul-2026 15:18:27 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Jul-2026 00:36:38 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[07-Jul-2026 18:40:12 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[08-Jul-2026 20:08:34 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:19 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:19 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:19 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:19 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:19 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:19 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[13-Jul-2026 03:15:19 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[15-Jul-2026 15:38:28 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Jul-2026 07:20:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[18-Jul-2026 11:17:21 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[20-Jul-2026 03:59:48 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: title in /home/advdimag/public_html/template.php on line 9
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[30-Jul-2026 11:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function displayPage() in /home/advdimag/public_html/template.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/advdimag/public_html/template.php on line 41
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[10-Aug-2026 09:56:16 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 01:41:11 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: title in /home/advdimag/public_html/template.php on line 9
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[17-Aug-2026 12:26:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function displayPage() in /home/advdimag/public_html/template.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/advdimag/public_html/template.php on line 41
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 45
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 45
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 46
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 45
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 45
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 46
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 45
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 45
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 46
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 84
+[03-Sep-2026 22:38:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/advdimag/public_html/form_submit.php on line 85
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[05-Oct-2026 13:26:18 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73
+[06-Oct-2026 19:49:24 UTC] PHP Notice:  Undefined variable: fileName in /home/advdimag/public_html/header.php on line 73

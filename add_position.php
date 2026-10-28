@@ -282,9 +282,10 @@ function update_list(){
 
 function fill_exp_mand_options(exp,index,mand){
 	innerhtml = "<select id='mand_select_id' onchange='change_mand_select(this," + index + ")'>";
-	for (let i = 0; i<=1; i++){
-		if ( i == mand) { innerhtml = innerhtml + "<option selected value='" + i + "'>" + i + "</option>"; }
-		else { innerhtml = innerhtml + "<option value='" + i + "'>" + i + "</option>"; }
+	if (mand == 1){
+		innerhtml = innerhtml + "<option selected value='1'>Yes</option><option value='0'>No</option>";
+	} else {
+		innerhtml = innerhtml + "<option value='1'>Yes</option><option selected value='0'>No</option>";
 	}
 	innerhtml = innerhtml + "</select>Exp: " + "<select id='exp_select_id' onchange='change_exp_select(this," + index + ")'>";
         for (let i = 1; i<=99; i++){

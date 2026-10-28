@@ -14,7 +14,7 @@ if ((isset($data['Email'])) && (isset($data['Position_Random_Id']))) {
 			if (mysqli_num_rows($result_pos) > 0) {
 				$row_pos = mysqli_fetch_assoc($result_pos);
 				$pos_id = $row_pos['Position_Id'];
-				$query = "SELECT Candidate_Id , Name , Zipcode , Phone , Work_Status , Visa_Transfer , Salary_Type , Salary , Linkedin_URL FROM Candidates WHERE Email='$email';";
+				$query = "SELECT Candidate_Id , Name , Zipcode , Phone , Work_Status , Visa_Transfer , Relocate , Salary_Type , Salary , Linkedin_URL FROM Candidates WHERE Email='$email';";
 				if($result = mysqli_query($connection, $query)) {
 					if (mysqli_num_rows($result) > 0) {
 						$result_array['Already_present'] = true;
@@ -57,7 +57,7 @@ if ((isset($data['Email'])) && (isset($data['Position_Random_Id']))) {
 	}
 } else if (isset($data['Email'])) {
 	$email = mysqli_real_escape_string($connection,$data['Email']);
-	$query = "SELECT Candidate_Id , Name , Zipcode , Phone , Work_Status , Visa_Transfer , Salary_Type , Salary , Position_Type , Linkedin_URL FROM Candidates WHERE Email='$email';";
+	$query = "SELECT Candidate_Id , Name , Zipcode , Phone , Work_Status , Visa_Transfer , Relocate , Salary_Type , Salary , Position_Type , Linkedin_URL FROM Candidates WHERE Email='$email';";
 	if($result = mysqli_query($connection, $query)) {
 		if (mysqli_num_rows($result) > 0) {
 			$result_array['Already_present'] = true;
